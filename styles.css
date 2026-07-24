@@ -170,10 +170,12 @@ h2::after {
 }
 
 .about-text p {
-    font-size: 1.05rem;
-    color: var(--text-light);
+    font-size: 1.08rem;
+    color: var(--text-dark);
     margin-bottom: 1.5rem;
-    line-height: 1.8;
+    line-height: 1.9;
+    font-weight: 500;
+    letter-spacing: 0.3px;
 }
 
 /* ===== Projects Section ===== */
@@ -266,13 +268,33 @@ h2::after {
     border-radius: 8px;
     border-left: 4px solid var(--accent-blue);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: var(--transition);
+}
+
+.skill-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.12);
+}
+
+.skill-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.skill-icon {
+    font-size: 2rem;
+    color: var(--accent-blue);
+    min-width: 50px;
+    text-align: center;
 }
 
 .skill-category h3 {
     font-size: 1.2rem;
     color: var(--primary-dark);
-    margin-bottom: 1.5rem;
     font-weight: 700;
+    margin: 0;
 }
 
 .skill-list {
@@ -289,6 +311,12 @@ h2::after {
     font-size: 0.9rem;
     font-weight: 500;
     border: 1px solid #d1d5db;
+    transition: var(--transition);
+}
+
+.skill-item:hover {
+    background-color: #eff6ff;
+    border-color: var(--accent-blue);
 }
 
 /* ===== Contact Section ===== */
@@ -328,7 +356,13 @@ h2::after {
     cursor: pointer;
     border: none;
     font-size: 1rem;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.btn i {
+    font-size: 1.1rem;
 }
 
 .btn-primary {
@@ -351,6 +385,18 @@ h2::after {
 .btn-secondary:hover {
     background-color: var(--white);
     color: var(--primary-blue);
+    transform: translateY(-2px);
+}
+
+.btn-cv {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: var(--white);
+    border: 2px solid var(--accent-blue);
+}
+
+.btn-cv:hover {
+    background-color: var(--accent-blue);
+    border-color: var(--accent-blue);
     transform: translateY(-2px);
 }
 
@@ -402,7 +448,7 @@ h2::after {
 
     .btn {
         width: 100%;
-        text-align: center;
+        justify-content: center;
     }
 
     section {
@@ -411,6 +457,10 @@ h2::after {
 
     h2 {
         font-size: 2rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
     }
 }
 
@@ -453,5 +503,13 @@ h2::after {
 
     section {
         padding: 2rem 0;
+    }
+
+    .skill-header {
+        gap: 0.8rem;
+    }
+
+    .skill-icon {
+        font-size: 1.5rem;
     }
 }
