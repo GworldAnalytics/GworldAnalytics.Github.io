@@ -42,17 +42,17 @@ body {
 }
 
 .header-content h1 {
-    font-size: 3.6rem;
-    font-weight: 700;
+    font-size: 4rem;
+    font-weight: 720;
     margin-bottom: 0.5rem;
     letter-spacing: -0.5px;
 }
 
 .tagline {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 2rem;
-    font-weight: 300;
+    font-weight: 320;
 }
 
 .social-links {
