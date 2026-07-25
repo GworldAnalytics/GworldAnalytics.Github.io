@@ -42,14 +42,14 @@ body {
 }
 
 .header-content h1 {
-    font-size: 3.5rem;
+    font-size: 3.6rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
     letter-spacing: -0.5px;
 }
 
 .tagline {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 2rem;
     font-weight: 300;
@@ -170,7 +170,7 @@ h2::after {
 }
 
 .about-text p {
-    font-size: 1.08rem;
+    font-size: 1.1rem;
     color: #4b5563;
     margin-bottom: 1.5rem;
     line-height: 1.8;
