@@ -92,15 +92,15 @@ body {
     display: flex;
     list-style: none;
     justify-content: center;
-    gap: 3rem;
+    gap: 5rem;
     padding: 1rem 0;
 }
 
 .nav-menu a {
     color: var(--text-dark);
     text-decoration: none;
-    font-weight: 650;
-    font-size: 1.1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
     transition: var(--transition);
     position: relative;
 }
@@ -400,11 +400,11 @@ h2::after {
 /* ===== Responsive Design ===== */
 @media (max-width: 768px) {
     .header-content h1 {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
 
     .tagline {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .about-wrapper {
@@ -417,12 +417,12 @@ h2::after {
     }
 
     .nav-menu {
-        gap: 1.5rem;
+        gap: 1.8rem;
         padding: 0.8rem 0;
     }
 
     .nav-menu a {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .projects-grid,
@@ -448,7 +448,7 @@ h2::after {
     }
 
     .about-text p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -462,7 +462,7 @@ h2::after {
     }
 
     .social-links {
-        gap: 1rem;
+        gap: 1.2rem;
     }
 
     .social-links a {
@@ -472,7 +472,7 @@ h2::after {
     }
 
     .nav-menu {
-        gap: 1rem;
+        gap: 1.2rem;
         flex-direction: row;
     }
 
@@ -486,7 +486,7 @@ h2::after {
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     section {
