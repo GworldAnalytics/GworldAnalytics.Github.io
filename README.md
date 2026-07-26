@@ -13,7 +13,7 @@ I'm a data analyst with a passion for turning raw, messy datasets into clear, ac
 
 With hands-on experience in Power BI, Excel, SQL, and DAX, I specialize in cleaning, modeling, and visualizing data to uncover the patterns and trends hiding beneath the surface. This portfolio showcases my projects across multiple sectors.
 
-**Professional Title:** Data Analyst | Power BI • Excel • SQL | Economist
+**Professional Title:** Data Analyst | Power BI Developer | Economist
 
 ---
 
